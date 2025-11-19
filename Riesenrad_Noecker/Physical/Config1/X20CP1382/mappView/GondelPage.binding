@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="GondelPage_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:nCurrentPerson" attribute="node" />
+<Target xsi:type="brease" contentRefId="GondelPage" widgetRefId="NumericOutput1" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aVisuRFIDCol[5]" attribute="value" />
+<Target xsi:type="brease" contentRefId="GondelPage" widgetRefId="Rectangle3" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aVisuRFIDCol[0]" attribute="value" />
+<Target xsi:type="brease" contentRefId="GondelPage" widgetRefId="Rectangle4" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aVisuRFIDCol[1]" attribute="value" />
+<Target xsi:type="brease" contentRefId="GondelPage" widgetRefId="Rectangle5" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aVisuRFIDCol[4]" attribute="value" />
+<Target xsi:type="brease" contentRefId="GondelPage" widgetRefId="Rectangle6" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aVisuRFIDCol[2]" attribute="value" />
+<Target xsi:type="brease" contentRefId="GondelPage" widgetRefId="Rectangle2" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aVisuRFIDCol[3]" attribute="value" />
+<Target xsi:type="brease" contentRefId="GondelPage" widgetRefId="Rectangle1" attribute="visible" />
+</Binding>
+</Bindings>
+</BindingsSet>

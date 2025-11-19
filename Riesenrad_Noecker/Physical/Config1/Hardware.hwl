@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="11/11/2025 10:36:12" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20CP1382" Type="X20CP1382" X="100" Y="100" />
+    <Module Name="X20IF10A1_1" Type="X20IF10A1-1" X="199" Y="100" />
+    <Module Name="X3" Type="X3" X="251" Y="103" />
+    <Module Name="X20TB1F2" Type="X20TB1F" X="251" Y="126" />
+    <Module Name="X2" Type="X2" X="238" Y="103" />
+    <Module Name="X20TB1F1" Type="X20TB1F" X="238" Y="126" />
+    <Module Name="X1" Type="X1" X="225" Y="103" />
+    <Module Name="X20TB1F" Type="X20TB1F" X="225" Y="126" />
+    <Module Name="X20BB80" Type="X20BB80" X="264" Y="252" />
+    <Module Name="X20BM11" Type="X20BM11" X="302" Y="252" />
+    <Module Name="X20DO4321" Type="X20DO4321" X="302" Y="252" />
+    <Module Name="X20TB12a" Type="X20TB12" X="302" Y="279" />
+    <Module Name="X20BM11a" Type="X20BM11" X="315" Y="252" />
+    <Module Name="X20DO8322" Type="X20DO8322" X="315" Y="252" />
+    <Module Name="X20TB12b" Type="X20TB12" X="315" Y="279" />
+    <Module Name="X20PS9400" Type="X20PS9400" X="289" Y="252" />
+    <Module Name="X20TB12" Type="X20TB12" X="289" Y="279" />
+    <Module Name="X20BC0083" Type="X20BC0083" X="264" Y="252" />
+    <Module Name="S_7_5__Combi_field_device" Type="FBD.Hilscher.AS-iSlaveDTM.S-7.5, Combi field device" X="264" Y="401" />
+    <Module Name="S_0_0__Remote_I_O_Port" Type="FBD.Hilscher.AS-iSlaveDTM.S-0.0, Remote I$002FO Port" X="100" Y="651" />
+    <Module Name="S_8_F__No_Profile" Type="FBD.Hilscher.AS-iSlaveDTM.S-8.F, No Profile" X="240" Y="651" />
+    <Module Name="S_1_1__Single_Sensor__ext__contrl__" Type="FBD.Hilscher.AS-iSlaveDTM.S-1.1, Single Sensor (ext. contrl.)" X="380" Y="651" />
+    <Module Name="S_D_1__Single_Actuator_with_Monitoring" Type="FBD.Hilscher.AS-iSlaveDTM.S-D.1, Single Actuator with Monitoring" X="430" Y="551" />
+    <Module Name="S_7_4__Interface_for_16_bit_Signals" Type="FBD.Hilscher.AS-iSlaveDTM.S-7.4, Interface for 16-bit Signals" X="570" Y="551" />
+    <Module Name="S_7_A__Extended_Addressing_Mode" Type="FBD.Hilscher.AS-iSlaveDTM.S-7.A, Extended Addressing Mode" X="710" Y="551" />
+    <Module Name="S_7_B__Safety_Slave" Type="FBD.Hilscher.AS-iSlaveDTM.S-7.B, Safety Slave" X="850" Y="551" />
+    <Module Name="S_0_B__Safety_Slave" Type="FBD.Hilscher.AS-iSlaveDTM.S-0.B, Safety Slave" X="990" Y="551" />
+  </Modules>
+  <Links>
+    <Link From="X20CP1382" To="X20BC0083" FromPort="IF3" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="278" Y="327" />
+      <Point X="278" Y="327" />
+      <Point X="263" Y="327" />
+      <Point X="153" Y="327" />
+      <Point X="153" Y="203" />
+      <Point X="153" Y="188" />
+      <Point X="153" Y="188" />
+    </Link>
+    <Link From="S_7_5__Combi_field_device" To="X20IF10A1_1" FromPort="ASI1" ToPort="IF1" IsRoutedByUser="False">
+      <Point X="283" Y="440" />
+      <Point X="283" Y="440" />
+      <Point X="283" Y="452" />
+      <Point X="283" Y="465" />
+      <Point X="211" Y="465" />
+      <Point X="211" Y="203" />
+      <Point X="211" Y="189" />
+      <Point X="211" Y="189" />
+    </Link>
+    <Link From="S_7_5__Combi_field_device" To="S_0_0__Remote_I_O_Port" FromPort="ASI2" ToPort="ASI1" IsRoutedByUser="False">
+      <Point X="298" Y="440" />
+      <Point X="298" Y="440" />
+      <Point X="298" Y="452" />
+      <Point X="298" Y="472" />
+      <Point X="235" Y="472" />
+      <Point X="235" Y="715" />
+      <Point X="119" Y="715" />
+      <Point X="119" Y="702" />
+      <Point X="119" Y="690" />
+      <Point X="119" Y="690" />
+    </Link>
+    <Link From="S_0_0__Remote_I_O_Port" To="S_8_F__No_Profile" FromPort="ASI2" ToPort="ASI1" IsRoutedByUser="False">
+      <Point X="134" Y="690" />
+      <Point X="134" Y="690" />
+      <Point X="134" Y="702" />
+      <Point X="134" Y="708" />
+      <Point X="205" Y="708" />
+      <Point X="205" Y="690" />
+      <Point X="239" Y="690" />
+      <Point X="259" Y="690" />
+      <Point X="259" Y="690" />
+    </Link>
+    <Link From="S_8_F__No_Profile" To="S_1_1__Single_Sensor__ext__contrl__" FromPort="ASI2" ToPort="ASI1" IsRoutedByUser="False">
+      <Point X="274" Y="690" />
+      <Point X="274" Y="690" />
+      <Point X="274" Y="702" />
+      <Point X="274" Y="715" />
+      <Point X="345" Y="715" />
+      <Point X="345" Y="690" />
+      <Point X="379" Y="690" />
+      <Point X="399" Y="690" />
+      <Point X="399" Y="690" />
+    </Link>
+    <Link From="S_1_1__Single_Sensor__ext__contrl__" To="S_D_1__Single_Actuator_with_Monitoring" FromPort="ASI2" ToPort="ASI1" IsRoutedByUser="False">
+      <Point X="414" Y="690" />
+      <Point X="414" Y="690" />
+      <Point X="414" Y="702" />
+      <Point X="414" Y="715" />
+      <Point X="375" Y="715" />
+      <Point X="375" Y="645" />
+      <Point X="449" Y="645" />
+      <Point X="449" Y="602" />
+      <Point X="449" Y="590" />
+      <Point X="449" Y="590" />
+    </Link>
+    <Link From="S_D_1__Single_Actuator_with_Monitoring" To="S_7_4__Interface_for_16_bit_Signals" FromPort="ASI2" ToPort="ASI1" IsRoutedByUser="False">
+      <Point X="464" Y="590" />
+      <Point X="464" Y="590" />
+      <Point X="464" Y="602" />
+      <Point X="464" Y="615" />
+      <Point X="535" Y="615" />
+      <Point X="535" Y="590" />
+      <Point X="569" Y="590" />
+      <Point X="589" Y="590" />
+      <Point X="589" Y="590" />
+    </Link>
+    <Link From="S_7_4__Interface_for_16_bit_Signals" To="S_7_A__Extended_Addressing_Mode" FromPort="ASI2" ToPort="ASI1" IsRoutedByUser="False">
+      <Point X="604" Y="590" />
+      <Point X="604" Y="590" />
+      <Point X="604" Y="602" />
+      <Point X="604" Y="615" />
+      <Point X="675" Y="615" />
+      <Point X="675" Y="590" />
+      <Point X="709" Y="590" />
+      <Point X="729" Y="590" />
+      <Point X="729" Y="590" />
+    </Link>
+    <Link From="S_7_A__Extended_Addressing_Mode" To="S_7_B__Safety_Slave" FromPort="ASI2" ToPort="ASI1" IsRoutedByUser="False">
+      <Point X="744" Y="590" />
+      <Point X="744" Y="590" />
+      <Point X="744" Y="602" />
+      <Point X="744" Y="615" />
+      <Point X="815" Y="615" />
+      <Point X="815" Y="590" />
+      <Point X="849" Y="590" />
+      <Point X="869" Y="590" />
+      <Point X="869" Y="590" />
+    </Link>
+    <Link From="S_7_B__Safety_Slave" To="S_0_B__Safety_Slave" FromPort="ASI2" ToPort="ASI1" IsRoutedByUser="False">
+      <Point X="884" Y="590" />
+      <Point X="884" Y="590" />
+      <Point X="884" Y="602" />
+      <Point X="884" Y="615" />
+      <Point X="955" Y="615" />
+      <Point X="955" Y="590" />
+      <Point X="989" Y="590" />
+      <Point X="1009" Y="590" />
+      <Point X="1009" Y="590" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

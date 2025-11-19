@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">S_1_1__Single_Sensor__ext__contrl__.dtmdre</Object>
+    <Object Type="File">S_1_1__Single_Sensor__ext__contrl__.dtmtre</Object>
+    <Object Type="File">S_1_1__Single_Sensor__ext__contrl__.dtmdri</Object>
+  </Objects>
+</Package>

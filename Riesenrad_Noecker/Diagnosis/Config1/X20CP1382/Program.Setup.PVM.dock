@@ -1,0 +1,8 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=109 Type=0 Scope=0 Force=0 Index=3 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                         bDriveDirection                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                               gASISetup                                     BOOL    1 "                                                           FALSE"    0    1    1    2    0    0         
+                          bSetAllGondels                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
+                            eAutoControl                                     DINT    0 "                                                               0"    0    4    1   10    1    0 e,0,idle
+

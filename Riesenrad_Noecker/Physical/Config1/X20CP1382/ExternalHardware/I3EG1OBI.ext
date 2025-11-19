@@ -1,0 +1,47 @@
+[FileInfo]
+FieldBus=Asi
+FileName=AS_74.EDS
+FileDescription=EDS File for Device Profile S-7.4
+FileVersion=1
+FileRevision=2
+CreationDate=03-08-00
+CreatedBy=Hilscher GmbH
+ModificationDate=06-30-03
+ModifiedBy=Hilscher GmbH
+
+[DeviceInfo]
+DeviceType=0x01
+DeviceName=S-7.4, Interface for 16-bit Signals
+DeviceDescription=4 In/4 Out
+Manufacturer=Unknown
+
+[SlaveData]
+IoConfiguration=0x07
+IdCode=0x04
+
+[ParameterBitDescription]
+Bit0Reset=
+Bit0Set=
+Bit1Reset=
+Bit1Set=
+Bit2Reset=
+Bit2Set=
+Bit3Reset=
+Bit3Set=
+
+[ExtendedId2Code]
+Entries = 8
+0       = 0
+1       = 4
+2       = 5
+3       = 6
+4       = 12
+5       = 13
+6       = 14
+7       = 15
+Default = 15
+
+[Bitmap]
+Configuration=AS_DEF_S.BMP
+Running=AS_DEF_R.BMP
+Diagnostic=AS_DEF_D.BMP

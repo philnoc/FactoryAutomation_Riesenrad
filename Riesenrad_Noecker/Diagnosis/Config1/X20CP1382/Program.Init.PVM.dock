@@ -1,0 +1,17 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=7 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                         aPersonInCarSet                              USINT[0..5]    0 "                                                               *"    0    5    6    0    1    1         
+                      aPersonInCarSet[0]                                    USINT    0 "                                                               1"    1    5    1   10    1    0         
+                      aPersonInCarSet[1]                                    USINT    0 "                                                               1"    1    5    1   10    1    0         
+                      aPersonInCarSet[2]                                    USINT    0 "                                                               1"    1    5    1   10    1    0         
+                      aPersonInCarSet[3]                                    USINT    0 "                                                               1"    1    5    1   10    1    0         
+                      aPersonInCarSet[4]                                    USINT    0 "                                                               1"    1    5    1   10    1    0         
+                      aPersonInCarSet[5]                                    USINT    0 "                                                               1"    1    5    1   10    1    0         
+                             aRFIDColors                                INT[0..5]    0 "                                                               *"    0    3    6    0    1    1         
+                          aRFIDColors[0]                                      INT    0 "                                                             125"    1    3    1   10    1    0         
+                          aRFIDColors[1]                                      INT    0 "                                                            1280"    1    3    1   10    1    0         
+                          aRFIDColors[2]                                      INT    0 "                                                            1536"    1    3    1   10    1    0         
+                          aRFIDColors[3]                                      INT    0 "                                                             512"    1    3    1   10    1    0         
+                          aRFIDColors[4]                                      INT    0 "                                                            1024"    1    3    1   10    1    0         
+                          aRFIDColors[5]                                      INT    0 "                                                             256"    1    3    1   10    1    0         

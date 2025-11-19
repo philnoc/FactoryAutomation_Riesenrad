@@ -1,0 +1,273 @@
+@import "mixins.scss";
+#ManualContent_Label1 {	@include elemAutoHeight(30);
+}
+#ManualContent_Label1 {	@include elemTop(20);
+}
+#ManualContent_Label1 {	@include elemLeft(280);
+}
+#ManualContent_Label1 {	@include elemAutoWidth(260);
+}
+#ManualContent_Label1 {	z-index: 0;
+}
+#ManualContent_Label1 {	font-size: 34px;
+}
+#ManualContent_Label1 {	@include font-weight-bold(true);
+}
+#ManualContent_MomentaryPushButton1 {	@include elemAutoWidth(100);
+}
+#ManualContent_MomentaryPushButton1 {	@include elemAutoHeight(30);
+}
+#ManualContent_MomentaryPushButton1 {	@include elemTop(220);
+}
+#ManualContent_MomentaryPushButton1 {	@include elemLeft(40);
+}
+#ManualContent_MomentaryPushButton1 {	z-index: 1;
+}
+#ManualContent_MomentaryPushButton2 {	@include elemAutoHeight(30);
+}
+#ManualContent_MomentaryPushButton2 {	@include elemTop(280);
+}
+#ManualContent_MomentaryPushButton2 {	@include elemLeft(200);
+}
+#ManualContent_MomentaryPushButton2 {	@include elemAutoWidth(80);
+}
+#ManualContent_MomentaryPushButton2 {	z-index: 2;
+}
+#ManualContent_MomentaryPushButton3 {	@include elemAutoHeight(30);
+}
+#ManualContent_MomentaryPushButton3 {	@include elemTop(280);
+}
+#ManualContent_MomentaryPushButton3 {	@include elemLeft(440);
+}
+#ManualContent_MomentaryPushButton3 {	@include elemAutoWidth(80);
+}
+#ManualContent_MomentaryPushButton3 {	z-index: 3;
+}
+#ManualContent_MomentaryPushButton4 {	@include elemAutoHeight(30);
+}
+#ManualContent_MomentaryPushButton4 {	@include elemTop(280);
+}
+#ManualContent_MomentaryPushButton4 {	@include elemLeft(60);
+}
+#ManualContent_MomentaryPushButton4 {	@include elemAutoWidth(60);
+}
+#ManualContent_MomentaryPushButton4 {	z-index: 4;
+}
+#ManualContent_DropDownBox1 {	&.DropDownBoxView {
+		@include elemWidth(100);
+	}
+}
+#ManualContent_DropDownBox1 {	&.DropDownBoxView {
+		@include elemHeight(30);
+	}
+}
+#ManualContent_DropDownBox1 {	@include elemTop(360);
+}
+#ManualContent_DropDownBox1 {	@include elemLeft(100);
+}
+#ManualContent_DropDownBox1 {	z-index: 5;
+}
+#ManualContent_Start {	@include elemAutoWidth(100);
+}
+#ManualContent_Start {	@include elemAutoHeight(30);
+}
+#ManualContent_Start {	@include elemTop(360);
+}
+#ManualContent_Start {	@include elemLeft(280);
+}
+#ManualContent_Start {	z-index: 6;
+}
+#ManualContent_ToggleSwitch1 {	@include elemAutoWidth(100);
+}
+#ManualContent_ToggleSwitch1 {	@include elemAutoHeight(30);
+}
+#ManualContent_ToggleSwitch1 {	@include elemTop(520);
+}
+#ManualContent_ToggleSwitch1 {	@include elemLeft(120);
+}
+#ManualContent_ToggleSwitch1 {	z-index: 7;
+}
+#ManualContent_ToggleSwitch1 {	&:not(.disabled):not(.checked) .wrapper .before {
+		color: rgba(255, 255, 255, 0);
+	}
+}
+#ManualContent_ToggleSwitch1 {	&:not(.disabled):not(.checked) .wrapper .after {
+		color: rgba(255, 255, 255, 0);
+	}
+}
+#ManualContent_Label2 {	@include elemAutoHeight(30);
+}
+#ManualContent_Label2 {	@include elemTop(480);
+}
+#ManualContent_Label2 {	@include elemLeft(120);
+}
+#ManualContent_Label2 {	@include elemAutoWidth(140);
+}
+#ManualContent_Label2 {	z-index: 8;
+}
+#ManualContent_Label3 {	@include elemAutoWidth(80);
+}
+#ManualContent_Label3 {	@include elemAutoHeight(30);
+}
+#ManualContent_Label3 {	@include elemTop(520);
+}
+#ManualContent_Label3 {	@include elemLeft(40);
+}
+#ManualContent_Label3 {	z-index: 9;
+}
+#ManualContent_Label4 {	@include elemAutoHeight(30);
+}
+#ManualContent_Label4 {	@include elemTop(520);
+}
+#ManualContent_Label4 {	@include elemLeft(220);
+}
+#ManualContent_Label4 {	@include elemAutoWidth(120);
+}
+#ManualContent_Label4 {	z-index: 10;
+}
+#ManualContent_TextOutput1 {	@include elemAutoHeight(30);
+}
+#ManualContent_TextOutput1 {	@include elemTop(180);
+}
+#ManualContent_TextOutput1 {	@include elemLeft(340);
+}
+#ManualContent_TextOutput1 {	@include elemAutoWidth(180);
+}
+#ManualContent_TextOutput1 {	z-index: 11;
+}
+#ManualContent_Label6 {	@include elemAutoHeight(30);
+}
+#ManualContent_Label6 {	@include elemTop(180);
+}
+#ManualContent_Label6 {	@include elemLeft(300);
+}
+#ManualContent_Label6 {	@include elemAutoWidth(40);
+}
+#ManualContent_Label6 {	z-index: 12;
+}
+#ManualContent_Label6 {	font-size: 18px;
+}
+#ManualContent_Label6 {	@include font-weight-bold(true);
+}
+#ManualContent_TextOutput2 {	@include elemAutoWidth(100);
+}
+#ManualContent_TextOutput2 {	@include elemAutoHeight(30);
+}
+#ManualContent_TextOutput2 {	@include elemTop(180);
+}
+#ManualContent_TextOutput2 {	@include elemLeft(200);
+}
+#ManualContent_TextOutput2 {	z-index: 13;
+}
+#ManualContent_ToggleButton1 {	@include elemAutoWidth(100);
+}
+#ManualContent_ToggleButton1 {	@include elemAutoHeight(30);
+}
+#ManualContent_ToggleButton1 {	@include elemTop(220);
+}
+#ManualContent_ToggleButton1 {	@include elemLeft(240);
+}
+#ManualContent_ToggleButton1 {	z-index: 14;
+}
+#ManualContent_MomentaryPushButton5 {	@include elemAutoHeight(30);
+}
+#ManualContent_MomentaryPushButton5 {	@include elemTop(280);
+}
+#ManualContent_MomentaryPushButton5 {	@include elemLeft(320);
+}
+#ManualContent_MomentaryPushButton5 {	@include elemAutoWidth(80);
+}
+#ManualContent_MomentaryPushButton5 {	z-index: 15;
+}
+#ManualContent_Label13 {	@include elemTop(80);
+}
+#ManualContent_Label13 {	@include elemLeft(240);
+}
+#ManualContent_Label13 {	@include elemAutoWidth(220);
+}
+#ManualContent_Label13 {	@include elemAutoHeight(40);
+}
+#ManualContent_Label13 {	z-index: 39;
+}
+#ManualContent_Label13 {	border-width: 1px;
+}
+#ManualContent_Label13 {	background-color: rgba(255, 0, 0, 1);
+}
+#ManualContent_Label13 {	border-style: solid;
+}
+#ManualContent_Label13 {	&:before {
+		border-style: solid;
+	}
+}
+#ManualContent_Label13 {	&:after {
+		border-style: solid;
+	}
+}
+#ManualContent_Label13 {	@include font-weight-bold(true);
+}
+#ManualContent_Label14 {	@include elemTop(80);
+}
+#ManualContent_Label14 {	@include elemLeft(240);
+}
+#ManualContent_Label14 {	@include elemAutoWidth(220);
+}
+#ManualContent_Label14 {	@include elemAutoHeight(40);
+}
+#ManualContent_Label14 {	z-index: 40;
+}
+#ManualContent_Label14 {	background-color: rgba(255, 0, 0, 1);
+}
+#ManualContent_Label14 {	@include font-weight-bold(true);
+}
+#ManualContent_Label15 {	@include elemTop(80);
+}
+#ManualContent_Label15 {	@include elemLeft(240);
+}
+#ManualContent_Label15 {	@include elemAutoWidth(220);
+}
+#ManualContent_Label15 {	@include elemAutoHeight(40);
+}
+#ManualContent_Label15 {	z-index: 38;
+}
+#ManualContent_Label15 {	background-color: rgba(255, 165, 0, 1);
+}
+#ManualContent_Label15 {	@include font-weight-bold(true);
+}
+#ManualContent_Label5 {	@include elemAutoHeight(30);
+}
+#ManualContent_Label5 {	@include elemTop(80);
+}
+#ManualContent_Label5 {	@include elemLeft(580);
+}
+#ManualContent_Label5 {	@include elemAutoWidth(220);
+}
+#ManualContent_Label5 {	z-index: 41;
+}
+#ManualContent_Label5 {	background-color: rgba(255, 0, 0, 1);
+}
+#ManualContent_Label5 {	@include font-weight-bold(true);
+}
+#ManualContent_Ellipse1 {	@include elemTop(120);
+}
+#ManualContent_Ellipse1 {	@include elemLeft(530);
+}
+#ManualContent_Ellipse1 {	@include elemWidth(20);
+}
+#ManualContent_Ellipse1 {	@include elemHeight(20);
+}
+#ManualContent_Ellipse1 {	z-index: 46;
+}
+#ManualContent_Ellipse1 {	background-color: rgba(255, 0, 0, 1);
+}
+#ManualContent_Rectangle1 {	@include elemTop(60);
+}
+#ManualContent_Rectangle1 {	@include elemLeft(530);
+}
+#ManualContent_Rectangle1 {	@include elemWidth(20);
+}
+#ManualContent_Rectangle1 {	@include elemHeight(55);
+}
+#ManualContent_Rectangle1 {	z-index: 48;
+}
+#ManualContent_Rectangle1 {	background-color: rgba(255, 0, 0, 1);
+}

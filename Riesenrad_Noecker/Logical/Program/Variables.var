@@ -1,0 +1,75 @@
+(*Automatik*)
+VAR
+	rAsiStart : r_trig;
+	rChangeMode : r_trig;
+	bAutoMode : BOOL;
+	bAutomodeChange : BOOL;
+	bGondelsNotEmpty : BOOL;
+	bLightGreen : BOOL;
+	bLightRed : BOOL;
+	bManualFast : BOOL;
+	RisingLightBarrier : r_trig;
+END_VAR
+(*Handbetrieb*)
+VAR
+	bManualMode : BOOL;
+	bManualNormal : BOOL;
+	bManualSlow : BOOL;
+	bManualStart : BOOL;
+	bManualStop : BOOL;
+	bModuloBusy : BOOL;
+	bNextRFID : BOOL;
+	bNotSetup : BOOL;
+	bResetPersonInGondel : BOOL;
+	bSafetyResetReq : {REDUND_UNREPLICABLE} BOOL;
+	bSetAllGondels : BOOL := FALSE;
+	bSetup : {REDUND_UNREPLICABLE} BOOL;
+	bSkipAutoChange : BOOL;
+	bStartModulo : BOOL;
+	bVisuPushBetrieb : BOOL;
+END_VAR
+(*Lichter*)
+VAR
+	tonQuit : TON; (*Blinken Licht Start Asi*)
+	tonStart : TON; (*Blinken Licht Quit Asi*)
+	bVisuSpotLeft : BOOL;
+	bVisuSpotRight : BOOL;
+	eAutoControl : E_AutoControl;
+	eSpeed : E_Speed := 0;
+	i : INT; (*Schleifenvariable*)
+	nLastRFID : UINT;
+	nColor : USINT;
+	tonManualSwitch : TON;
+	nCurrentPerson : INT;
+	nGondelValueSet : USINT;
+	nLastRFIDAuto : UINT;
+	nLEDVisu : INT;
+END_VAR
+(*RFID/ Gondels*)
+VAR
+	aPersonInCarIs : ARRAY[0..5] OF USINT;
+	aPersonInCarSet : ARRAY[0..5] OF USINT;
+	aRFIDColors : ARRAY[0..5] OF INT;
+	aVisuRFIDCol : ARRAY[0..5] OF BOOL;
+	nRFIDArrIndex : USINT;
+	nSpinnCountIs : USINT;
+	nSpinnCountSet : USINT;
+END_VAR
+(*Safety*)
+VAR
+	rfAutomode : RF_TRIG;
+	rAsiQuit : r_trig;
+	rSetup : {REDUND_UNREPLICABLE} r_trig;
+	rRFIDTrack : r_trig;
+END_VAR
+(*Visualisierung*)
+VAR
+	rTrigGreen : r_trig;
+	rTrigModulo : r_trig;
+	rTrigRed : r_trig;
+	sDisplayVisu : {REDUND_UNREPLICABLE} STRING[80];
+	sManualColor : STRING[80];
+	sVisuDrehrichtung : STRING[80];
+	sVisuMode : STRING[80];
+	tonTimerRun : TON;
+END_VAR

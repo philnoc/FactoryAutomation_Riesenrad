@@ -1,0 +1,55 @@
+[FileInfo]
+FieldBus=Asi
+FileName=AS_0B.EDS
+FileDescription=EDS File for Device Profile S-0.B
+FileVersion=1
+FileRevision=1
+CreationDate=06-30-03
+CreatedBy=Hilscher GmbH
+ModificationDate=
+ModifiedBy=
+
+[DeviceInfo]
+DeviceType=0x01
+DeviceName=S-0.B, Safety Slave
+DeviceDescription=4 In
+Manufacturer=Unknown
+
+[SlaveData]
+IoConfiguration=0x00
+IdCode=0x0B
+
+[ParameterBitDescription]
+Bit0Reset=
+Bit0Set=
+Bit1Reset=
+Bit1Set=
+Bit2Reset=
+Bit2Set=
+Bit3Reset=
+Bit3Set=
+
+[ExtendedId2Code]
+Entries = 16
+0       = 0
+1       = 1
+2       = 2
+3       = 3
+4       = 4
+5       = 5
+6       = 6
+7       = 7
+8       = 8
+9       = 9
+10      = 10
+11      = 11
+12      = 12
+13      = 13
+14      = 14
+15      = 15
+Default = 15
+
+[Bitmap]
+Configuration=AS_DEF_S.BMP
+Running=AS_DEF_R.BMP
+Diagnostic=AS_DEF_D.BMP

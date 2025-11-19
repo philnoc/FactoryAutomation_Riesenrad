@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="9" ArVersion="D4.83">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases>
+      <EURanges Id="1">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">15</High>
+        </EURange>
+      </EURanges>
+    </EURangesAliases>
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Globale Variablen">
+        <Variable Name="gASILight1" />
+        <Variable Name="gASILight2" />
+        <Variable Name="gASILight3" />
+        <Variable Name="gASIQuit" />
+        <Variable Name="gASISetup" />
+        <Variable Name="gASIStart" />
+        <Variable Name="gASIStop" />
+        <Variable Name="gButtonFast" />
+        <Variable Name="gButtonOnOff" />
+        <Variable Name="gButtonSlow" />
+        <Variable Name="gButtonStop" />
+        <Variable Name="gDisplay" />
+        <Variable Name="gDriveDirection" />
+        <Variable Name="gDriveSpeed1" />
+        <Variable Name="gDriveSpeed2" />
+        <Variable Name="gEmergencyStop" />
+        <Variable Name="gEmergencyStop1" />
+        <Variable Name="gEmergencyStop2" />
+        <Variable Name="gEmergencyStop3" />
+        <Variable Name="gEmergencyStop4" />
+        <Variable Name="gGreenDown" />
+        <Variable Name="gGreenTop" />
+        <Variable Name="gLED1" />
+        <Variable Name="gLED2" />
+        <Variable Name="gLED3" />
+        <Variable Name="gLED4" />
+        <Variable Name="gLightGrid" />
+        <Variable Name="gLightGrid1" />
+        <Variable Name="gLightGrid2" />
+        <Variable Name="gLightGrid3" />
+        <Variable Name="gLightGrid4" />
+        <Variable Name="gLightRed" />
+        <Variable Name="gReciever" />
+        <Variable Name="gRedDown" />
+        <Variable Name="gRedTop" />
+        <Variable Name="gRFIDColor" />
+        <Variable Name="gSafetyStop" />
+        <Variable Name="gSpotlightLeft" />
+        <Variable Name="gSpotlightRight" />
+        <Variable Name="gTransmitter" />
+        <Variable Name="gLightGreen" />
+      </GlobalVariables>
+      <Task Name="Program">
+        <Variable Name="aPersonInCarIs" RecursiveEnable="2" />
+        <Variable Name="aPersonInCarSet" RecursiveEnable="2" />
+        <Variable Name="aRFIDColors" RecursiveEnable="2" />
+        <Variable Name="aVisuRFIDCol" RecursiveEnable="2" />
+        <Variable Name="bAutoMode" />
+        <Variable Name="bSafetyResetReq" />
+        <Variable Name="bSetup" />
+        <Variable Name="eAutoControl" />
+        <Variable Name="eSpeed" />
+        <Variable Name="i" />
+        <Variable Name="nCurrentPerson" />
+        <Variable Name="nSpinnCountIs" />
+        <Variable Name="nSpinnCountSet" />
+        <Variable Name="RisingLightBarrier" />
+        <Variable Name="sDisplayVisu" />
+        <Variable Name="bManualFast" />
+        <Variable Name="bManualSlow" />
+        <Variable Name="bManualStart" />
+        <Variable Name="bManualStop" />
+        <Variable Name="bVisuSpotLeft" />
+        <Variable Name="bVisuSpotRight" />
+        <Variable Name="nLEDVisu" EURangesId="1" />
+        <Variable Name="sManualColor" />
+        <Variable Name="bStartModulo" />
+        <Variable Name="sVisuMode" />
+        <Variable Name="bManualNormal" />
+        <Variable Name="bVisuPushBetrieb" />
+        <Variable Name="sVisuDrehrichtung" />
+        <Variable Name="bNotSetup" />
+        <Variable Name="bSetAllGondels" />
+        <Variable Name="nGondelValueSet" />
+        <Variable Name="bManualMode" />
+        <Variable Name="bLightGreen" />
+        <Variable Name="bLightRed" />
+        <Variable Name="bGondelsNotEmpty" />
+        <Variable Name="bResetPersonInGondel" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

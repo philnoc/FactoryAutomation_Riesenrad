@@ -1,0 +1,51 @@
+@import "mixins.scss";
+#NavigationContent_NavigationBar1 {	@include elemTop(0);
+}
+#NavigationContent_NavigationBar1 {	@include elemLeft(0);
+}
+#NavigationContent_NavigationBar1 {	@include elemWidth(360);
+}
+#NavigationContent_NavigationBar1 {	@include elemHeight(100);
+}
+#NavigationContent_NavigationBar1 {	z-index: 0;
+}
+#NavigationContent_NavigationButton1 {	@include elemAutoWidth(100);
+}
+#NavigationContent_NavigationButton1 {	@include elemTop(10);
+}
+#NavigationContent_NavigationButton1 {	@include elemLeft(40);
+}
+#NavigationContent_NavigationButton1 {	@include elemAutoHeight(60);
+}
+#NavigationContent_NavigationButton1 {	z-index: 0;
+}
+#NavigationContent_NavigationButton1 {	span {
+		font-size: 14px;
+	}
+}
+#NavigationContent_NavigationButton2 {	@include elemTop(10);
+}
+#NavigationContent_NavigationButton2 {	@include elemLeft(200);
+}
+#NavigationContent_NavigationButton2 {	@include elemAutoWidth(120);
+}
+#NavigationContent_NavigationButton2 {	@include elemAutoHeight(60);
+}
+#NavigationContent_NavigationButton2 {	z-index: 1;
+}
+#NavigationContent_NavigationButton2 {	span {
+		font-size: 14px;
+	}
+}
+#NavigationContent_DateTimeOutput1 {	@include elemAutoHeight(30);
+}
+#NavigationContent_DateTimeOutput1 {	@include elemTop(25);
+}
+#NavigationContent_DateTimeOutput1 {	@include elemLeft(840);
+}
+#NavigationContent_DateTimeOutput1 {	@include elemAutoWidth(382);
+}
+#NavigationContent_DateTimeOutput1 {	z-index: 1;
+}
+#NavigationContent_DateTimeOutput1 {	background-color: rgba(255, 255, 255, 0);
+}

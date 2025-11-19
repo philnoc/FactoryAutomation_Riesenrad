@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExternalHardware>
+  <Modules>
+    <Module ModuleID="FBD.Hilscher.AS-iSlaveDTM.S-7.5, Combi field device" Version="v.1" OrderNumber="S-7.5, Combi field device">
+      <SourceFile OriginalFile="AS_75.EDS" TranslationFile="AJF79MSR.ext" />
+    </Module>
+    <Module ModuleID="FBD.Hilscher.AS-iSlaveDTM.S-0.0, Remote I$002FO Port" Version="v.1" OrderNumber="S-0.0, Remote I/O Port">
+      <SourceFile OriginalFile="AS_00.EDS" TranslationFile="5Y3PV6HH.ext" />
+    </Module>
+    <Module ModuleID="FBD.Hilscher.AS-iSlaveDTM.S-8.F, No Profile" Version="v.1" OrderNumber="S-8.F, No Profile">
+      <SourceFile OriginalFile="AS_8F.EDS" TranslationFile="TMOA1JIY.ext" />
+    </Module>
+    <Module ModuleID="FBD.Hilscher.AS-iSlaveDTM.S-1.1, Single Sensor (ext. contrl.)" Version="v.1" OrderNumber="S-1.1, Single Sensor (ext. contrl.)">
+      <SourceFile OriginalFile="AS_11.EDS" TranslationFile="RQYNXWBS.ext" />
+    </Module>
+    <Module ModuleID="FBD.Hilscher.AS-iSlaveDTM.S-D.1, Single Actuator with Monitoring" Version="v.1" OrderNumber="S-D.1, Single Actuator with Monitoring">
+      <SourceFile OriginalFile="AS_D1.EDS" TranslationFile="QWF666I3.ext" />
+    </Module>
+    <Module ModuleID="FBD.Hilscher.AS-iSlaveDTM.S-7.4, Interface for 16-bit Signals" Version="v.1" OrderNumber="S-7.4, Interface for 16-bit Signals">
+      <SourceFile OriginalFile="AS_74.EDS" TranslationFile="I3EG1OBI.ext" />
+    </Module>
+    <Module ModuleID="FBD.Hilscher.AS-iSlaveDTM.S-7.A, Extended Addressing Mode" Version="v.1" OrderNumber="S-7.A, Extended Addressing Mode">
+      <SourceFile OriginalFile="AS_7A.EDS" TranslationFile="8RN7FNN0.ext" />
+    </Module>
+    <Module ModuleID="FBD.Hilscher.AS-iSlaveDTM.S-7.B, Safety Slave" Version="v.1" OrderNumber="S-7.B, Safety Slave">
+      <SourceFile OriginalFile="AS_7B.EDS" TranslationFile="ARPTYF3J.ext" />
+    </Module>
+    <Module ModuleID="FBD.Hilscher.AS-iSlaveDTM.S-0.B, Safety Slave" Version="v.1" OrderNumber="S-0.B, Safety Slave">
+      <SourceFile OriginalFile="AS_0B.EDS" TranslationFile="WK880KLW.ext" />
+    </Module>
+  </Modules>
+</ExternalHardware>

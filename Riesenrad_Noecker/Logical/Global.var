@@ -1,0 +1,78 @@
+(*List of global Variables*)
+(* *)
+VAR
+	gSafetyStop : BOOL;
+	gEmergencyStop : BOOL;
+	gLightGrid : BOOL;
+END_VAR
+(*List of Variables for IO*)
+(* *)
+(*RFID*)
+VAR
+	gRFIDColor : UINT;
+END_VAR
+(* *)
+(*Operating Light*)
+VAR
+	gRedTop : BOOL := FALSE;
+	gGreenTop : BOOL := FALSE;
+	gRedDown : BOOL := FALSE;
+	gGreenDown : BOOL := FALSE;
+END_VAR
+(* *)
+(*Drive*)
+VAR
+	gDriveDirection : BOOL := TRUE;
+	gDriveSpeed1 : BOOL := FALSE;
+	gDriveSpeed2 : BOOL := FALSE;
+END_VAR
+(* *)
+(*Light*)
+VAR
+	gSpotlightRight : BOOL := FALSE;
+	gSpotlightLeft : BOOL := FALSE;
+	gLightRed : BOOL := TRUE;
+	gLightGreen : BOOL := FALSE;
+	gLED1 : BOOL := FALSE;
+	gLED2 : BOOL := FALSE;
+	gLED3 : BOOL := FALSE;
+	gLED4 : BOOL := FALSE;
+END_VAR
+(* *)
+(*Control Center*)
+VAR
+	gDisplay : UINT := 16#0505;
+	gButtonOnOff : BOOL;
+	gButtonFast : BOOL;
+	gButtonSlow : BOOL;
+	gButtonStop : BOOL;
+END_VAR
+(* *)
+(*Light Barrier*)
+VAR
+	gReciever : BOOL;
+	gTransmitter : BOOL := FALSE; (*For Activation on 1*)
+END_VAR
+(* *)
+(*ASI Button*)
+VAR
+	gASIStart : BOOL;
+	gASIStop : BOOL;
+	gASIQuit : BOOL;
+	gASISetup : BOOL;
+	gASILight1 : BOOL := FALSE;
+	gASILight2 : BOOL := FALSE;
+	gASILight3 : BOOL := FALSE;
+	gEmergencyStop1 : BOOL;
+	gEmergencyStop2 : BOOL;
+	gEmergencyStop3 : BOOL;
+	gEmergencyStop4 : BOOL;
+END_VAR
+(* *)
+(*Sicherheitsgitter*)
+VAR
+	gLightGrid1 : BOOL;
+	gLightGrid2 : BOOL;
+	gLightGrid3 : BOOL;
+	gLightGrid4 : BOOL;
+END_VAR

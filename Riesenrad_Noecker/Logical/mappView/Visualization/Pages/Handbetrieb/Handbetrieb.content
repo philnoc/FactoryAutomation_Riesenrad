@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ManualContent" height="720" width="820" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="20" left="280" width="260" zIndex="0" text="Handbetrieb" fontSize="34px" bold="true" />
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton1" top="220" left="40" zIndex="1" text="An/Aus" />
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton2" top="280" left="200" width="80" zIndex="2" text="Schnell" />
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton3" top="280" left="440" width="80" zIndex="3" text="Langsam" />
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton4" top="280" left="60" width="60" zIndex="4" text="Stop" />
+    <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox1" top="360" left="100" zIndex="5" dataProvider="[{'value':'0','text':'Rot'},{'value':'1','text':'Lila'},{'value':'2','text':'Weiss'},{'value':'3','text':'Blau'},{'value':'4','text':'Gelb'},{'value':'5','text':'Gruen'}]" selectedValue="0" />
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="Start" top="360" left="280" zIndex="6" text="Start" />
+    <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch1" top="520" left="120" zIndex="7" text="Richtung" textColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="480" left="120" width="140" zIndex="8" text="Drehrichtung" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="520" left="40" zIndex="9" text="mit Uhr" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="520" left="220" width="120" zIndex="10" text="gegen Uhr" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput1" top="180" left="340" width="180" zIndex="11" />
+    <Widget xsi:type="widgets.brease.Label" id="Label6" top="180" left="300" width="40" zIndex="12" text=":" fontSize="18px" bold="true" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput2" top="180" left="200" zIndex="13" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton1" top="220" left="240" zIndex="14" text="Push Betrieb" />
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton5" top="280" left="320" width="80" zIndex="15" text="Normal" />
+    <Widget xsi:type="widgets.brease.Label" id="Label13" top="80" left="240" width="220" height="40" zIndex="39" text="Nottaster gedrückt" borderWidth="1px" backColor="rgba(255, 0, 0, 1)" borderStyle="solid" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label14" top="80" left="240" width="220" height="40" zIndex="40" text="Hindernis in Sicherheitsgitter" backColor="rgba(255, 0, 0, 1)" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label15" top="80" left="240" width="220" height="40" zIndex="38" text="Quittieren Notwendig" backColor="rgba(255, 165, 0, 1)" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label5" top="80" left="580" width="220" zIndex="41" text="Personen noch in Gondeln!" backColor="rgba(255, 0, 0, 1)" bold="true" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse1" top="120" left="530" width="20" height="20" zIndex="46" backColor="rgba(255, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="60" left="530" width="20" height="55" zIndex="48" backColor="rgba(255, 0, 0, 1)" />
+  </Widgets>
+</Content>

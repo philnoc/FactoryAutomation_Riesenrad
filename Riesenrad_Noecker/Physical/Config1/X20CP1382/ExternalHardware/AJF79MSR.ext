@@ -1,0 +1,41 @@
+[FileInfo]
+FieldBus=Asi
+FileName=AS_75.EDS
+FileDescription=EDS File for Device Profile S-7.5
+FileVersion=1
+FileRevision=1
+CreationDate=06-30-03
+CreatedBy=Hilscher GmbH
+ModificationDate=
+ModifiedBy=
+
+[DeviceInfo]
+DeviceType=0x01
+DeviceName=S-7.5, Combi field device
+DeviceDescription=1 In/1 Out
+Manufacturer=Unknown
+
+[SlaveData]
+IoConfiguration=0x07
+IdCode=0x05
+
+[ParameterBitDescription]
+Bit0Reset=
+Bit0Set=
+Bit1Reset=
+Bit1Set=
+Bit2Reset=
+Bit2Set=
+Bit3Reset=
+Bit3Set=
+
+[ExtendedId2Code]
+Entries = 2
+0       = 5
+1       = 15
+Default = 5
+
+[Bitmap]
+Configuration=AS_DEF_S.BMP
+Running=AS_DEF_R.BMP
+Diagnostic=AS_DEF_D.BMP

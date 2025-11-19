@@ -1,0 +1,5 @@
+X20CP1382 | Config1 | Build
+Systemfehler
+   bei BR.AS.AnalyseProject.DataClasses.DataAndTools.StopExecutionOnErrorAndUserCancelation()
+   bei BR.AS.AnalyseProject.ProjectValidation.Checks.AnalyseProjectChecks()
+   bei BR.AS.AnalyseProject.Analyse.Execute()

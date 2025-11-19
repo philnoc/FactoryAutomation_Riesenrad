@@ -1,0 +1,21 @@
+Wed Nov 12 09:00:12 2025
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Wed Nov 12 09:00:12 2025
+No ARsim registration found!
+
+Wed Nov 12 09:00:12 2025
+InstanceName: 000025bee80d7ce9
+
+Wed Nov 12 09:00:12 2025
+WorkingDirectory: C:\Users\student\Documents\Noecker\Riesenrad_Noecker\Temp\Simulation\Config1\X20CP1382\
+
+Wed Nov 12 09:00:12 2025
+COMMAND_COLDSTART
+
+Wed Nov 12 09:00:14 2025
+Version: D4.83
+
+Wed Nov 12 09:01:05 2025
+COMMAND_TERMINATE
+

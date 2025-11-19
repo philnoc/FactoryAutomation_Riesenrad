@@ -1,0 +1,55 @@
+[FileInfo]
+FieldBus=Asi
+FileName=AS_11.EDS
+FileDescription=EDS File for Device Profile S-1.1
+FileVersion=1
+FileRevision=1
+CreationDate=10-27-99
+CreatedBy=Hilscher GmbH
+ModificationDate=
+ModifiedBy=
+
+[DeviceInfo]
+DeviceType=0x01
+DeviceName=S-1.1, Single Sensor (ext. contrl.)
+DeviceDescription=3 In/1 Out
+Manufacturer=Unknown
+
+[SlaveData]
+IoConfiguration=0x01
+IdCode=0x01
+
+[ParameterBitDescription]
+Bit0Reset=
+Bit0Set=
+Bit1Reset=
+Bit1Set=
+Bit2Reset=
+Bit2Set=
+Bit3Reset=
+Bit3Set=
+
+[ExtendedId2Code]
+Entries = 16
+0       = 0
+1       = 1
+2       = 2
+3       = 3
+4       = 4
+5       = 5
+6       = 6
+7       = 7
+8       = 8
+9       = 9
+10      = 10
+11      = 11
+12      = 12
+13      = 13
+14      = 14
+15      = 15
+Default = 15
+
+[Bitmap]
+Configuration=AS_DEF_S.BMP
+Running=AS_DEF_R.BMP
+Diagnostic=AS_DEF_D.BMP

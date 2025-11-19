@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="HandCentent_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bManualStop" attribute="value" />
+<Target xsi:type="brease" contentRefId="HandCentent" widgetRefId="PushButton4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bManualSlow" attribute="value" />
+<Target xsi:type="brease" contentRefId="HandCentent" widgetRefId="PushButton3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bManualFast" attribute="value" />
+<Target xsi:type="brease" contentRefId="HandCentent" widgetRefId="PushButton2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bManualStart" attribute="value" />
+<Target xsi:type="brease" contentRefId="HandCentent" widgetRefId="PushButton1" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

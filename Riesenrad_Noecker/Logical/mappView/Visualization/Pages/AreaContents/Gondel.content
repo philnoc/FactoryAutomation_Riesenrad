@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="GondelContent" height="240" width="440" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="40" left="80" width="120" zIndex="0" text="Gondellfarbe" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="40" left="280" width="100" zIndex="1" text="Fahrgäste" bold="true" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="100" left="280" zIndex="2" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="80" left="60" width="140" height="80" zIndex="3" backColor="rgba(0, 0, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle2" top="80" left="60" width="140" height="80" zIndex="4" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle3" top="80" left="60" width="140" height="80" zIndex="5" backColor="rgba(0, 192, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle4" top="80" left="60" width="140" height="80" zIndex="6" backColor="rgba(255, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle5" top="80" left="60" width="140" height="80" zIndex="7" backColor="rgba(192, 0, 192, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle6" top="80" left="60" width="140" height="80" zIndex="8" backColor="rgba(255, 255, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle7" top="80" left="60" width="140" height="80" zIndex="9" borderWidth="5px" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton1" top="160" left="260" width="140" zIndex="10" text="Keine Gäste mehr" />
+  </Widgets>
+</Content>

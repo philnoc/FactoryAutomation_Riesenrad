@@ -1,0 +1,127 @@
+@import "mixins.scss";
+#SafetyContent_Label1 {	@include elemAutoHeight(30);
+}
+#SafetyContent_Label1 {	@include elemTop(40);
+}
+#SafetyContent_Label1 {	@include elemLeft(120);
+}
+#SafetyContent_Label1 {	@include elemAutoWidth(180);
+}
+#SafetyContent_Label1 {	z-index: 0;
+}
+#SafetyContent_Label1 {	@include font-weight-bold(true);
+}
+#SafetyContent_Label2 {	@include elemAutoHeight(30);
+}
+#SafetyContent_Label2 {	@include elemTop(80);
+}
+#SafetyContent_Label2 {	@include elemLeft(140);
+}
+#SafetyContent_Label2 {	@include elemAutoWidth(120);
+}
+#SafetyContent_Label2 {	z-index: 1;
+}
+#SafetyContent_Label3 {	@include elemAutoHeight(30);
+}
+#SafetyContent_Label3 {	@include elemTop(80);
+}
+#SafetyContent_Label3 {	@include elemLeft(20);
+}
+#SafetyContent_Label3 {	@include elemAutoWidth(140);
+}
+#SafetyContent_Label3 {	z-index: 2;
+}
+#SafetyContent_Label4 {	@include elemAutoWidth(80);
+}
+#SafetyContent_Label4 {	@include elemAutoHeight(30);
+}
+#SafetyContent_Label4 {	@include elemTop(80);
+}
+#SafetyContent_Label4 {	@include elemLeft(280);
+}
+#SafetyContent_Label4 {	z-index: 3;
+}
+#SafetyContent_Ellipse1 {	@include elemTop(120);
+}
+#SafetyContent_Ellipse1 {	@include elemLeft(60);
+}
+#SafetyContent_Ellipse1 {	@include elemWidth(40);
+}
+#SafetyContent_Ellipse1 {	@include elemHeight(40);
+}
+#SafetyContent_Ellipse1 {	z-index: 9;
+}
+#SafetyContent_Ellipse1 {	border-width: 3px;
+}
+#SafetyContent_Ellipse1 {	background-color: rgba(255, 0, 0, 1);
+}
+#SafetyContent_Ellipse2 {	@include elemTop(120);
+}
+#SafetyContent_Ellipse2 {	@include elemLeft(180);
+}
+#SafetyContent_Ellipse2 {	@include elemWidth(40);
+}
+#SafetyContent_Ellipse2 {	@include elemHeight(40);
+}
+#SafetyContent_Ellipse2 {	z-index: 8;
+}
+#SafetyContent_Ellipse2 {	border-width: 3px;
+}
+#SafetyContent_Ellipse2 {	background-color: rgba(255, 0, 0, 1);
+}
+#SafetyContent_Ellipse3 {	@include elemTop(120);
+}
+#SafetyContent_Ellipse3 {	@include elemLeft(300);
+}
+#SafetyContent_Ellipse3 {	@include elemWidth(40);
+}
+#SafetyContent_Ellipse3 {	@include elemHeight(40);
+}
+#SafetyContent_Ellipse3 {	z-index: 7;
+}
+#SafetyContent_Ellipse3 {	border-width: 3px;
+}
+#SafetyContent_Ellipse3 {	background-color: rgba(255, 0, 0, 1);
+}
+#SafetyContent_Ellipse4 {	@include elemTop(120);
+}
+#SafetyContent_Ellipse4 {	@include elemLeft(60);
+}
+#SafetyContent_Ellipse4 {	@include elemWidth(40);
+}
+#SafetyContent_Ellipse4 {	@include elemHeight(40);
+}
+#SafetyContent_Ellipse4 {	z-index: 6;
+}
+#SafetyContent_Ellipse4 {	border-width: 3px;
+}
+#SafetyContent_Ellipse4 {	background-color: rgba(0, 192, 0, 1);
+}
+#SafetyContent_Ellipse5 {	@include elemTop(120);
+}
+#SafetyContent_Ellipse5 {	@include elemLeft(180);
+}
+#SafetyContent_Ellipse5 {	@include elemWidth(40);
+}
+#SafetyContent_Ellipse5 {	@include elemHeight(40);
+}
+#SafetyContent_Ellipse5 {	z-index: 5;
+}
+#SafetyContent_Ellipse5 {	border-width: 3px;
+}
+#SafetyContent_Ellipse5 {	background-color: rgba(0, 192, 0, 1);
+}
+#SafetyContent_Ellipse6 {	@include elemTop(120);
+}
+#SafetyContent_Ellipse6 {	@include elemLeft(300);
+}
+#SafetyContent_Ellipse6 {	@include elemWidth(40);
+}
+#SafetyContent_Ellipse6 {	@include elemHeight(40);
+}
+#SafetyContent_Ellipse6 {	z-index: 4;
+}
+#SafetyContent_Ellipse6 {	border-width: 3px;
+}
+#SafetyContent_Ellipse6 {	background-color: rgba(0, 192, 0, 1);
+}

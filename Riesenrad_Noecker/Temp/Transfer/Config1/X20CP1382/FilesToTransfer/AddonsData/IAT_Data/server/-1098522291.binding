@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+  
+<Content id="SafetyContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bSafetyResetReq" attribute="value" />
+<Target xsi:type="brease" refId="SafetyContent_Ellipse1" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="SafetyContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gEmergencyStop" attribute="value" />
+<Target xsi:type="brease" refId="SafetyContent_Ellipse2" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="SafetyContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gLightGrid" attribute="value" />
+<Target xsi:type="brease" refId="SafetyContent_Ellipse3" attribute="visible" />
+</Binding></Content>
+
+
+
+
+</BindingDefinition>

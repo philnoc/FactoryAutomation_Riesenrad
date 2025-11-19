@@ -1,0 +1,12 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=113 Type=0 Scope=0 Force=0 Index=8 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                  bSetup                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
+                         gDriveDirection                                     BOOL    3 "                                                            TRUE"    0    1    1    2    0    0         
+                          aPersonInCarIs                              USINT[0..5]    0 "                                                               *"    0    5    6    0    1    1         
+                       aPersonInCarIs[0]                                    USINT    0 "                                                               0"    1    5    1   10    1    0         
+                       aPersonInCarIs[1]                                    USINT    0 "                                                               0"    1    5    1   10    1    0         
+                       aPersonInCarIs[2]                                    USINT    0 "                                                               0"    1    5    1   10    1    0         
+                       aPersonInCarIs[3]                                    USINT    0 "                                                               0"    1    5    1   10    1    0         
+                       aPersonInCarIs[4]                                    USINT    0 "                                                               0"    1    5    1   10    1    0         
+                       aPersonInCarIs[5]                                    USINT    0 "                                                               5"    1    5    1   10    1    0         

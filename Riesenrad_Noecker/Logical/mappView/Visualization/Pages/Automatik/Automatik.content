@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AutoContent" height="720" width="820" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="20" left="280" width="300" zIndex="0" text="Automatikbetrieb" fontSize="32px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="280" left="120" width="381" zIndex="1" text="Fahrgäste je Gondelfarbe" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="320" left="60" width="100" height="60" zIndex="2" text="Rot" textAlign="center" fontSize="24px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label5" top="320" left="300" width="121" height="60" zIndex="3" text="Blau" textAlign="center" fontSize="24px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label6" top="320" left="540" width="100" height="60" zIndex="4" text="Grün" textAlign="center" fontSize="24px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label7" top="459" left="60" width="120" height="61" zIndex="5" text="Weiß" textAlign="center" fontSize="24px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label8" top="460" left="300" width="100" height="61" zIndex="6" text="Lila" textAlign="center" fontSize="24px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label9" top="459" left="540" width="100" height="61" zIndex="7" text="Gelb" textAlign="center" fontSize="24px" bold="true" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="360" left="80" width="80" height="60" zIndex="8" maxValue="10" minValue="1" showUnit="false" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput2" top="360" left="320" width="80" height="60" zIndex="9" maxValue="10" minValue="1" showUnit="false" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput3" top="360" left="560" width="80" height="60" zIndex="10" maxValue="10" minValue="1" showUnit="false" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput4" top="500" left="80" width="80" height="60" zIndex="11" maxValue="10" minValue="1" showUnit="false" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput5" top="500" left="320" width="80" height="60" zIndex="12" maxValue="10" minValue="1" showUnit="false" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput6" top="500" left="560" width="80" height="60" zIndex="13" maxValue="10" minValue="1" showUnit="false" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse1" top="360" left="20" width="60" height="60" zIndex="14" backColor="rgba(255, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse2" top="500" left="20" width="60" height="60" zIndex="15" backColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse3" top="360" left="260" width="60" height="60" zIndex="16" backColor="rgba(0, 0, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse4" top="500" left="260" width="60" height="60" zIndex="17" backColor="rgba(255, 0, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse5" top="360" left="500" width="60" height="60" zIndex="18" backColor="rgba(0, 192, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse6" top="500" left="500" width="60" height="60" zIndex="19" backColor="rgba(255, 255, 0, 1)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput1" top="180" left="180" width="200" zIndex="20" borderWidth="2px" borderColor="rgba(0, 0, 0, 1)" borderStyle="none" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="180" left="140" zIndex="21" text=":" fontSize="18px" bold="true" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput2" top="180" left="40" zIndex="22" />
+    <Widget xsi:type="widgets.brease.Label" id="Label10" top="220" left="40" width="120" zIndex="23" text="Drehrichtung:" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput3" top="220" left="180" zIndex="24" />
+    <Widget xsi:type="widgets.brease.Label" id="Label11" top="180" left="440" width="180" zIndex="25" text="Anzahl Umdrehungen Set:" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput7" top="180" left="640" width="80" zIndex="26" maxValue="20" minValue="1" />
+    <Widget xsi:type="widgets.brease.Label" id="Label12" top="220" left="440" width="200" zIndex="27" text="Anzahl Umdrehungen Ist:" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="220" left="640" width="80" zIndex="28" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput2" top="180" left="640" width="80" zIndex="29" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput3" top="360" left="80" width="80" height="60" zIndex="30" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput4" top="360" left="560" width="80" height="60" zIndex="31" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput5" top="360" left="320" width="80" height="60" zIndex="32" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput6" top="500" left="320" width="80" height="60" zIndex="33" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput7" top="500" left="560" width="80" height="60" zIndex="34" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput8" top="500" left="80" width="80" height="60" zIndex="35" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput8" top="640" left="340" width="80" zIndex="36" maxValue="10" minValue="1" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PushButton1" top="600" left="340" width="80" zIndex="37" text="Setze Alle" />
+    <Widget xsi:type="widgets.brease.Label" id="Label13" top="80" left="240" width="220" height="40" zIndex="39" text="Nottaster gedrückt" borderWidth="1px" backColor="rgba(255, 0, 0, 1)" borderStyle="solid" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label14" top="80" left="240" width="220" height="40" zIndex="40" text="Hindernis in Sicherheitsgitter" backColor="rgba(255, 0, 0, 1)" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label15" top="80" left="240" width="220" height="40" zIndex="38" text="Quittieren Notwendig" backColor="rgba(255, 165, 0, 1)" bold="true" />
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="41" x1="160" x2="180" y1="580" y2="480" />
+    <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="42" x1="160" x2="180" y1="440" y2="340" />
+    <Widget xsi:type="widgets.brease.Line" id="Line3" zIndex="43" x1="400" x2="420" y1="440" y2="340" />
+    <Widget xsi:type="widgets.brease.Line" id="Line4" zIndex="44" x1="400" x2="420" y1="580" y2="480" />
+    <Widget xsi:type="widgets.brease.Line" id="Line5" zIndex="45" x1="640" x2="660" y1="440" y2="340" />
+    <Widget xsi:type="widgets.brease.Line" id="Line6" zIndex="46" x1="640" x2="660" y1="580" y2="480" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput9" top="360" left="180" width="60" height="60" zIndex="47" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput10" top="500" left="180" width="60" height="60" zIndex="48" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput11" top="360" left="420" width="60" height="60" zIndex="49" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput12" top="500" left="420" width="60" height="60" zIndex="50" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput13" top="360" left="660" width="60" height="60" zIndex="51" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput14" top="500" left="660" width="60" height="60" zIndex="52" />
+    <Widget xsi:type="widgets.brease.Label" id="Label16" top="80" left="580" width="220" zIndex="53" text="Personen noch in Gondeln!" backColor="rgba(255, 0, 0, 1)" bold="true" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse7" top="120" left="530" width="20" height="20" zIndex="54" backColor="rgba(255, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="60" left="530" width="20" height="55" zIndex="55" backColor="rgba(255, 0, 0, 1)" />
+  </Widgets>
+</Content>

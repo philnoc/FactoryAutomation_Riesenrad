@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+  
+<Content id="LightsContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:nLEDVisu" attribute="value" />
+<Target xsi:type="brease" refId="LightsContent_BasicSlider1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:nLEDVisu" attribute="editable" />
+<Target xsi:type="brease" refId="LightsContent_BasicSlider1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LightsContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:nLEDVisu" attribute="value" />
+<Target xsi:type="brease" refId="LightsContent_NumericOutput1" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LightsContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bVisuSpotLeft" attribute="value" />
+<Target xsi:type="brease" refId="LightsContent_ToggleButton1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:bVisuSpotLeft" attribute="editable" />
+<Target xsi:type="brease" refId="LightsContent_ToggleButton1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LightsContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bVisuSpotRight" attribute="value" />
+<Target xsi:type="brease" refId="LightsContent_ToggleButton2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:bVisuSpotRight" attribute="editable" />
+<Target xsi:type="brease" refId="LightsContent_ToggleButton2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LightsContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bManualMode" attribute="value" />
+<Target xsi:type="brease" refId="LightsContent_MomentaryPushButton1" attribute="enable" />
+</Binding></Content>
+
+
+
+<Content id="LightsContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bManualMode" attribute="value" />
+<Target xsi:type="brease" refId="LightsContent_MomentaryPushButton2" attribute="enable" />
+</Binding></Content>
+
+
+
+<Content id="LightsContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gLightRed" attribute="value" />
+<Target xsi:type="brease" refId="LightsContent_Ellipse3" attribute="visible" />
+</Binding></Content>
+
+
+
+
+<Content id="LightsContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bLightGreen" attribute="value" />
+<Target xsi:type="brease" refId="LightsContent_MomentaryPushButton1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:bLightGreen" attribute="editable" />
+<Target xsi:type="brease" refId="LightsContent_MomentaryPushButton1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LightsContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bLightRed" attribute="value" />
+<Target xsi:type="brease" refId="LightsContent_MomentaryPushButton2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:bLightRed" attribute="editable" />
+<Target xsi:type="brease" refId="LightsContent_MomentaryPushButton2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LightsContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gLightGreen" attribute="value" />
+<Target xsi:type="brease" refId="LightsContent_Ellipse4" attribute="visible" />
+</Binding></Content>
+
+
+
+
+</BindingDefinition>

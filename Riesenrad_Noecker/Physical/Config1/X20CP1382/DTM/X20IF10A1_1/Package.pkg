@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">X20IF10A1_1.dtm</Object>
+    <Object Type="Package">X20IF10A1_1_IF1</Object>
+    <Object Type="Package">S_7_5__Combi_field_device</Object>
+    <Object Type="Package">S_0_0__Remote_I_O_Port</Object>
+    <Object Type="Package">S_8_F__No_Profile</Object>
+    <Object Type="Package">S_1_1__Single_Sensor__ext__contrl__</Object>
+    <Object Type="Package">S_D_1__Single_Actuator_with_Monitoring</Object>
+    <Object Type="Package">S_7_4__Interface_for_16_bit_Signals</Object>
+    <Object Type="Package">S_7_A__Extended_Addressing_Mode</Object>
+    <Object Type="Package">S_7_B__Safety_Slave</Object>
+    <Object Type="Package">S_0_B__Safety_Slave</Object>
+  </Objects>
+</Package>

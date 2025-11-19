@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="AutoContent_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarSet[0]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericInput1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarSet[3]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericInput2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarSet[5]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericInput3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarSet[4]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericInput6" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarSet[1]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericInput5" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarSet[2]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericInput4" attribute="value" />
+</Binding>
+
+
+
+
+		
+		
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:sDisplayVisu" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="TextOutput1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:sVisuMode" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="TextOutput2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="Label10" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:sVisuDrehrichtung" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="TextOutput3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="TextOutput3" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:nSpinnCountSet" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericInput7" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:nSpinnCountIs" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericInput7" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:nSpinnCountSet" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput2" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput2" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericInput3" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericInput2" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericInput1" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericInput6" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericInput5" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericInput4" attribute="visible" />
+</Binding>
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput5" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput6" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput7" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput3" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput8" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput4" attribute="visible" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bSetAllGondels" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="PushButton1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:nGondelValueSet" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericInput8" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="PushButton1" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericInput8" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarIs[0]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarIs[3]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput5" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarIs[5]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarIs[2]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput8" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarIs[1]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput6" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarIs[4]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput7" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gEmergencyStop" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="Label13" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gLightGrid" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="Label14" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bSafetyResetReq" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="Label15" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="Line6" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="Line4" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="Line5" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="Line2" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="Line3" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="Line1" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput13" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput10" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput9" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput12" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput14" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bNotSetup" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput11" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarSet[0]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput9" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarSet[3]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput11" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarSet[4]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput14" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarSet[5]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput13" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarSet[1]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput12" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:aPersonInCarSet[2]" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="NumericOutput10" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bGondelsNotEmpty" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="Ellipse7" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bGondelsNotEmpty" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="Rectangle1" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:bGondelsNotEmpty" attribute="value" />
+<Target xsi:type="brease" contentRefId="AutoContent" widgetRefId="Label16" attribute="visible" />
+</Binding>
+</Bindings>
+</BindingsSet>
